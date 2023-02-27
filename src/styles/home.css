@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.scrollable {
+    overflow-x: scroll;
+    min-height: 400px;
+}
+
+.navbar-inner {
+    background-image: url("https://www.xtrafondos.com/wallpapers/lobo-aullando-en-las-estrellas-7852.jpg");
+    background-size: cover;
+    height: 85px;
+}
+
+.button-inner {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Bungee', cursive;
+}
+
+.ts-card {
+    background-color: transparent;
+}
+
+.img-ch {
+    width: 201px;
+    height: 276px;
+}
+
+.img-pl {
+    width: 230px;
+}
+
+.align-items {
+    align-items: center;
+    background-image: url("https://w0.peakpx.com/wallpaper/310/767/HD-wallpaper-stars-black-dark-deep-night-sky-space-star.jpg");
+}
+
+.perspective {
+    color: #fed34f !important;
+    transform: perspective(300px) rotateX(25deg);
+    text-align: justify;
+}
+
+/* width */
+.scrollable::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+    box-shadow: inset 4px 0px 4px rgb(23, 38, 82);
+    border-radius: 0px;
+}
+
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+    background: rgb(47, 52, 65);
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 12, 19);
+}
